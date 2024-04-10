@@ -7,7 +7,7 @@
  * 
  */
 
-console.log("Loading ZTE Script v" + "2024-03-29-#1");
+console.log("Loading ZTE Script v mod by Bua" + "2024-04-10-#1");
 
 siginfo =
     "wan_active_band,wan_active_channel,wan_lte_ca,wan_apn,wan_ipaddr," +
@@ -1859,7 +1859,7 @@ function inject_html()
                     <a onclick="lte_band_selection('20')">B20</a> |
                     <a onclick="lte_band_selection('38')">B38</a> |
                     <a onclick="lte_band_selection('1+3')">B1+B3</a> |
-                    <a onclick="lte_band_selection('1+3+7')">B1+B3+B7</a>
+                    <a onclick="lte_band_selection('1+3+7')">B1+B3+B7</a> |
                     <a 
 onclick="lte_band_selection('1+3+7+20')">B1+B3+B7+B20</a> |
                     <a 
@@ -1886,7 +1886,7 @@ onclick="lte_band_selection('1+3+7+8')">B1+B3+B7+B8</a> |
                 <a onclick="nr_band_selection('78')">N78</a> |
                 <a onclick="nr_band_selection('28,75')">N28+N75</a> |
                 <a onclick="nr_band_selection('78')">N78</a> |
-                <a onclick="nr_band_selection('78,28,75')">N78+N28+N75</a>
+                <a onclick="nr_band_selection('78,28,75')">N78+N28+N75</a> |
                 <a onclick="nr_band_selection('78,75')">N78+N75</a>
             ]
 
